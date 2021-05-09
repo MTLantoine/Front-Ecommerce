@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Article from "../../../utils/models/Article";
-import ArticleComponent from "../Article/ArticleComponent";
+import ListArticleComponent from "../ListArticleComponent/ListArticleComponent";
 import "./CorpsComponent.scss";
 
 const articles: Article[] = [
@@ -37,16 +37,70 @@ const articles: Article[] = [
     price: 1.5,
     quantity: 165,
   },
+  {
+    id: 3,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/500",
+      alt: "Jus de fruis en briquette",
+    },
+    description: "Jus d'orange frais",
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 4,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/500",
+      alt: "Jus de fruis en briquette",
+    },
+    description: "Jus d'orange frais",
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 5,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/500",
+      alt: "Jus de fruis en briquette",
+    },
+    description: "Jus d'orange frais",
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 6,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/500",
+      alt: "Jus de fruis en briquette",
+    },
+    description: "Jus d'orange frais",
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 7,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/500",
+      alt: "Jus de fruis en briquette",
+    },
+    description: "Jus d'orange frais",
+    price: 1.5,
+    quantity: 165,
+  },
 ];
 
 function CorpsComponent() {
   const [article] = useState(articles);
-  const loopArticle = article.map((item) => (
-    <li key={item.id}>
-      <ArticleComponent article={item} />
-    </li>
-  ));
-  return <ul>{loopArticle}</ul>;
+  return (
+    <div className="corps-component">
+      <ListArticleComponent listArticles={article} />
+    </div>
+  );
 }
 
 export default CorpsComponent;

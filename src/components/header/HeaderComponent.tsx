@@ -3,7 +3,7 @@ import "./HeaderComponent.scss";
 
 const HeaderComponent = () => (
   <div className="HeaderComponent" data-testid="HeaderComponent">
-    Header Component
+    <div className="header-container">Header Component</div>
   </div>
 );
 

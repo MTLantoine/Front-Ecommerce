@@ -1,5 +1,13 @@
+@import "src/stylesheets/styles";
+
 .HeaderComponent {
   height: 80px;
-  background-color: #d25918;
-  color: white;
+  background-color: $orange-header;
+  color: $white;
+
+  .header-container {
+    max-width: $lmedium;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
