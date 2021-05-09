@@ -5,7 +5,7 @@ import "./ListArticleComponent.scss";
 function ListArticleComponent(listArticles: any) {
   console.log(listArticles);
   const loopArticle = listArticles.listArticles.map((item: any) => (
-    <li key={item.id}>
+    <li className="list-articles__item" key={item.id}>
       <ArticleComponent article={item} />
     </li>
   ));

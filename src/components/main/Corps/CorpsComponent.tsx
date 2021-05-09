@@ -8,7 +8,7 @@ const articles: Article[] = [
     id: 0,
     name: "Tomates",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/800/400",
       alt: "Tomate en grappe",
     },
     description: "Des tomates bien fraiches",
@@ -30,7 +30,7 @@ const articles: Article[] = [
     id: 2,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/200",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
@@ -41,7 +41,7 @@ const articles: Article[] = [
     id: 3,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/800",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
@@ -52,7 +52,7 @@ const articles: Article[] = [
     id: 4,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/400/800",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
@@ -63,7 +63,7 @@ const articles: Article[] = [
     id: 5,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/500/300",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
@@ -74,7 +74,7 @@ const articles: Article[] = [
     id: 6,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/300/500",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
@@ -85,7 +85,7 @@ const articles: Article[] = [
     id: 7,
     name: "Jus d'orange",
     picture: {
-      src: "https://picsum.photos/500",
+      src: "https://picsum.photos/1900",
       alt: "Jus de fruis en briquette",
     },
     description: "Jus d'orange frais",
