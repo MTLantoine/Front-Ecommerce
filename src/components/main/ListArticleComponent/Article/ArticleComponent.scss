@@ -1,13 +1,7 @@
-.article {
-  &__picture {
-    .picture {
-      width: 100%;
-      max-height: 262.5px;
-      height: 100%;
-      object-fit: contain;
-    }
-  }
+@import "src/stylesheets/styles";
 
-  &__title {
+.article {
+  &__card {
+    border: 2px solid $lightgray;
   }
 }

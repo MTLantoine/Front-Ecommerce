@@ -4,7 +4,6 @@ interface Article {
   id: number;
   name: string;
   picture: Picture;
-  description: string;
   price: number;
   quantity: number;
 }
