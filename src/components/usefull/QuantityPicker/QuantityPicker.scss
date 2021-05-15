@@ -1,0 +1,50 @@
+@import "src/stylesheets/styles";
+
+.quantity-picker {
+  display: flex;
+  align-items: center;
+  border: 1px solid $customgray;
+  border-radius: 5px;
+
+  .case {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      font-size: 16px;
+    }
+  }
+
+  &__input {
+    border-right: 1px solid $customgray;
+    border-left: 1px solid $customgray;
+    padding: 0 5px;
+
+    input {
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      border: none;
+      margin: 0;
+      text-align: center;
+
+      &:focus {
+        outline: none;
+      }
+
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none !important;
+        margin: 0 !important; /* <-- Apparently some margin are still there even though it's hidden */
+      }
+
+      input[type="number"] {
+        -moz-appearance: textfield !important; /* Firefox */
+      }
+    }
+  }
+}

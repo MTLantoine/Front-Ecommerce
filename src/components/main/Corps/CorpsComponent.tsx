@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Article from "../../../utils/models/Article";
 import ListArticleComponent from "../ListArticleComponent/ListArticleComponent";
 import "./CorpsComponent.scss";
@@ -87,10 +87,9 @@ const articles: Article[] = [
 ];
 
 function CorpsComponent() {
-  const [article] = useState(articles);
   return (
     <div className="corps-component">
-      <ListArticleComponent listArticles={article} />
+      <ListArticleComponent listArticles={articles} />
     </div>
   );
 }
