@@ -18,6 +18,8 @@ class APIAccessor {
     articles.push({
       id: 0,
       name: "Tomates",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/800/400",
         alt: "Tomate en grappe",
@@ -29,6 +31,8 @@ class APIAccessor {
     articles.push({
       id: 1,
       name: "Rhum",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/500",
         alt: "Rhum (boisson alcoolisée)",
@@ -40,6 +44,8 @@ class APIAccessor {
     articles.push({
       id: 2,
       name: "Jus d'orange",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://images.pexels.com/photos/161559/background-bitter-breakfast-bright-161559.jpeg",
         alt: "Jus de fruis en briquette",
@@ -51,6 +57,8 @@ class APIAccessor {
     articles.push({
       id: 3,
       name: "Clémentine",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/800",
         alt: "Jus de fruis en briquette",
@@ -62,6 +70,8 @@ class APIAccessor {
     articles.push({
       id: 4,
       name: "Pomme de terre",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/400/800",
         alt: "Jus de fruis en briquette",
@@ -73,6 +83,8 @@ class APIAccessor {
     articles.push({
       id: 5,
       name: "Salade",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/500/300",
         alt: "Jus de fruis en briquette",
@@ -84,6 +96,8 @@ class APIAccessor {
     articles.push({
       id: 6,
       name: "Montre",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/300/500",
         alt: "Jus de fruis en briquette",
@@ -95,6 +109,8 @@ class APIAccessor {
     articles.push({
       id: 7,
       name: "Lunettes",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/190",
         alt: "Jus de fruis en briquette",
@@ -106,6 +122,8 @@ class APIAccessor {
     articles.push({
       id: 8,
       name: "Stylo",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/100/500",
         alt: "Jus de fruis en briquette",
@@ -117,6 +135,8 @@ class APIAccessor {
     articles.push({
       id: 9,
       name: "Livre",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/100/600",
         alt: "Jus de fruis en briquette",
@@ -128,6 +148,8 @@ class APIAccessor {
     articles.push({
       id: 10,
       name: "Télévision",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/110/500",
         alt: "Jus de fruis en briquette",
@@ -139,6 +161,8 @@ class APIAccessor {
     articles.push({
       id: 11,
       name: "Lit",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/110/600",
         alt: "Jus de fruis en briquette",
@@ -150,6 +174,8 @@ class APIAccessor {
     articles.push({
       id: 12,
       name: "Bureau",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/120/600",
         alt: "Jus de fruis en briquette",
@@ -161,6 +187,8 @@ class APIAccessor {
     articles.push({
       id: 13,
       name: "Assiettes",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/120/700",
         alt: "Jus de fruis en briquette",
@@ -172,6 +200,8 @@ class APIAccessor {
     articles.push({
       id: 14,
       name: "T-Shirt",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/130/600",
         alt: "Jus de fruis en briquette",
@@ -183,6 +213,8 @@ class APIAccessor {
     articles.push({
       id: 15,
       name: "Chaussures",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/130/700",
         alt: "Jus de fruis en briquette",
@@ -194,6 +226,8 @@ class APIAccessor {
     articles.push({
       id: 16,
       name: "Voiture",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/140/700",
         alt: "Jus de fruis en briquette",
@@ -204,7 +238,9 @@ class APIAccessor {
 
     articles.push({
       id: 17,
-      name: "Jambom",
+      name: "Jambon",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est sed dui dapibus posuere non vitae ipsum. Maecenas finibus nisl ac iaculis volutpat. Nunc tincidunt nec sem quis tempus. Aenean auctor rutrum nunc, nec feugiat turpis lacinia id. Nunc eleifend imperdiet tristique. Nam pellentesque nisl nec finibus vulputate. Phasellus sit amet ante aliquam, varius elit id, molestie mauris. Ut imperdiet sodales magna, aliquam rhoncus odio fermentum sed. Sed lorem lacus, aliquam sit amet dignissim ut, posuere nec ante. Phasellus dapibus erat at elit euismod, rutrum vulputate nulla ornare.",
       picture: {
         src: "https://picsum.photos/140/800",
         alt: "Jus de fruis en briquette",

@@ -14,7 +14,6 @@ import QuantityPicker from "../../../usefull/QuantityPicker/QuantityPicker";
 import Article from "../../../../utils/models/Article";
 import BuyComponent from "../../../usefull/BuyComponent/BuyComponent";
 import { Link } from "react-router-dom";
-import { Router } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -69,8 +68,11 @@ function ArticleComponent({ ...article }: Article) {
           <CardMedia className={classes.media} image={article.picture.src} />
         </Link>
         <CardActions className="article__card__actions" disableSpacing>
-          <QuantityPicker maximum={article.quantity} />
-          <BuyComponent />
+          <div>
+            <div className="price">{article.price}€</div>
+            <QuantityPicker maximum={article.quantity} />
+          </div>
+          <BuyComponent longVersion={false} />
         </CardActions>
       </Card>
     </div>

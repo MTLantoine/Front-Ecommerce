@@ -5,8 +5,14 @@
   justify-content: center;
   align-items: center;
   background-color: $red-custom;
+  border: 1px solid $red-custom;
   border-radius: 5px;
   cursor: pointer;
+  transition: 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  svg {
+    fill: $white;
+  }
 
   &.spinning {
     opacity: 0.8;
@@ -21,8 +27,24 @@
       animation: 1s linear infinite spinning;
     }
 
+    .text {
+      margin-right: 10px;
+      font-weight: bold;
+      font-size: 14px;
+      transition: 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      color: $white;
+    }
+  }
+
+  &:hover {
+    background-color: $white;
+
     svg {
-      fill: $white;
+      fill: $red-custom;
+    }
+
+    .text {
+      color: $red-custom;
     }
   }
 }
