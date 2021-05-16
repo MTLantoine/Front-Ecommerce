@@ -4,6 +4,10 @@
   &__card {
     border: 2px solid $lightgray;
 
+    &__product {
+      color: $black;
+    }
+
     &__actions {
       display: flex;
       justify-content: space-between;

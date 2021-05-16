@@ -84,6 +84,106 @@ const articles: Article[] = [
     price: 1.5,
     quantity: 165,
   },
+  {
+    id: 8,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 9,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 10,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 11,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 12,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 13,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 14,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 15,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 16,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
+  {
+    id: 17,
+    name: "Jus d'orange",
+    picture: {
+      src: "https://picsum.photos/1900",
+      alt: "Jus de fruis en briquette",
+    },
+    price: 1.5,
+    quantity: 165,
+  },
 ];
 
 function CorpsComponent() {

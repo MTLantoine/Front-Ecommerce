@@ -13,6 +13,8 @@ import {
 import QuantityPicker from "../../../usefull/QuantityPicker/QuantityPicker";
 import Article from "../../../../utils/models/Article";
 import BuyComponent from "../../../usefull/BuyComponent/BuyComponent";
+import { Link } from "react-router-dom";
+import { Router } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -55,12 +57,17 @@ function ArticleComponent({ ...article }: Article) {
   return (
     <div className="article">
       <Card className="article__card">
-        <CardHeader
-          className="article__card__header"
-          title={article.name}
-          subheader={tmpSubheader}
-        />
-        <CardMedia className={classes.media} image={article.picture.src} />
+        <Link
+          to={`/product-page/${article.id}`}
+          className="article__card__product"
+        >
+          <CardHeader
+            className="article__card__header"
+            title={article.name}
+            subheader={tmpSubheader}
+          />
+          <CardMedia className={classes.media} image={article.picture.src} />
+        </Link>
         <CardActions className="article__card__actions" disableSpacing>
           <QuantityPicker maximum={article.quantity} />
           <BuyComponent />
