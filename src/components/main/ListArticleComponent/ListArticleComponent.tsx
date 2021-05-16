@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Article from "../../../utils/models/Article";
 import SearchBar from "../../usefull/SearchBar/SearchBar";
-import WrapperMenuComponent from "../WrapperMenuComponent/WrapperMenuComponent";
 import ArticleComponent from "./Article/ArticleComponent";
 import "./ListArticleComponent.scss";
 
@@ -40,7 +39,6 @@ function ListArticleComponent(listArticles: any) {
 
   return (
     <div className="list-articles">
-      <WrapperMenuComponent />
       <SearchBar handleSearch={handleSearch} />
       <ul className="list-articles__container">{articles}</ul>
     </div>

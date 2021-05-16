@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   .header-container {
     max-width: $lmedium;
@@ -14,5 +15,15 @@
     margin: 0 auto;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 40px;
+  }
+
+  .menu-wrapper {
+    position: absolute;
+    right: 20px;
+
+    svg {
+      fill: $white;
+      font-size: 40px;
+    }
   }
 }

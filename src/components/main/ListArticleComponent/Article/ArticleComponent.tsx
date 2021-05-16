@@ -14,6 +14,7 @@ import QuantityPicker from "../../../usefull/QuantityPicker/QuantityPicker";
 import Article from "../../../../utils/models/Article";
 import BuyComponent from "../../../usefull/BuyComponent/BuyComponent";
 import { Link } from "react-router-dom";
+import APIAccessor from "../../../usefull/APIAccessor";
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -34,17 +35,13 @@ const useStyles = makeStyles((theme: Theme) =>
   })
 );
 
+const api = APIAccessor.getInstance();
+
 function ArticleComponent({ ...article }: Article) {
   const classes = useStyles();
-  const [expanded, setExpanded] = React.useState(false);
-  const [buyQuantity, setBuyQuantity] = React.useState(0);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
-
-  const handleAddQuantityClick = (value: number) => {
-    setBuyQuantity(value);
+  const handleAddQuantityClick = () => {
+    api.addToCart(article, 1);
   };
 
   const tmpSubheader =
@@ -72,7 +69,10 @@ function ArticleComponent({ ...article }: Article) {
             <div className="price">{article.price}€</div>
             <QuantityPicker maximum={article.quantity} />
           </div>
-          <BuyComponent longVersion={false} />
+          <BuyComponent
+            handleAddQuantityClick={handleAddQuantityClick}
+            longVersion={false}
+          />
         </CardActions>
       </Card>
     </div>

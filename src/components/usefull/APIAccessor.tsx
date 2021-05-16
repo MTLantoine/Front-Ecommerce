@@ -1,8 +1,13 @@
 import Article from "../../utils/models/Article";
+import Cart from "../../utils/models/Cart";
 import Client from "../../utils/models/Client";
+import ItemInCart from "../main/ItemInCart/ItemInCart";
 
+const cartComponent = ItemInCart.getInstance();
 class APIAccessor {
   private static instance: APIAccessor;
+
+  private cart: Cart[] = [];
 
   public static getInstance() {
     if (!APIAccessor.instance) {
@@ -252,6 +257,10 @@ class APIAccessor {
     return articles;
   }
 
+  public getArticleById(id: number) {
+    return this.getArticles().find((element) => element.id === id);
+  }
+
   public getClients() {
     let clients: Client[] = [];
 
@@ -266,6 +275,50 @@ class APIAccessor {
       lastname: "Chenavier",
       address: "18 place Victor Hugo",
     });
+
+    return clients;
+  }
+
+  public getCart() {
+    return this.cart;
+  }
+
+  public addToCart(item: Article, quantity: number) {
+    if (this.cart.find((element) => element.articleId === item.id)) {
+      this.cart.forEach((element) => {
+        if (element.articleId === item.id) {
+          element.quantity += quantity;
+        }
+      });
+    } else {
+      const cart: Cart = {
+        articleId: item.id,
+        quantity: quantity,
+      };
+      this.cart.push(cart);
+    }
+
+    const boughtArticles = this.getGoodArticles(this.getCart());
+    cartComponent.updateCart(boughtArticles);
+  }
+
+  public getGoodArticles(cart: Cart[]) {
+    const boughtArticles: {
+      name: string | undefined;
+      pic: string | undefined;
+      quantity: number | undefined;
+      price: number | undefined;
+    }[] = [];
+    cart.forEach((element) => {
+      boughtArticles.push({
+        name: this.getArticleById(element.articleId)?.name,
+        pic: this.getArticleById(element.articleId)?.picture.src,
+        quantity: element.quantity,
+        price: this.getArticleById(element.articleId)?.price,
+      });
+    });
+
+    return boughtArticles;
   }
 }
 

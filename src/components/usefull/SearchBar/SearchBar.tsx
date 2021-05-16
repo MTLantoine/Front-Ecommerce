@@ -1,6 +1,5 @@
 import { IconButton } from "@material-ui/core";
 import SearchIcon from "@material-ui/icons/Search";
-import React from "react";
 import "./SearchBar.scss";
 
 function SearchBar(props: any) {
