@@ -1,4 +1,13 @@
-# Getting Started with Create React App - Logan & Antoine
+# Project made by
+
+- Antoine MORTELIER
+- Logan CHENAVIER
+
+# Online deployment
+
+https://master.d129djflsr2acf.amplifyapp.com/
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
